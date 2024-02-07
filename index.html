@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <center><h1>Calculadora</h1></center>
+    
+    <div class="estilo">
+        <form action="">
+            <input  placeholder="Informe o primeiro número" id="num1">
+            <select id="operador">
+                <option value="soma">+</option>
+                <option value="subtracao">-</option>
+                <option value="divisao">/</option>
+                <option value="multiplicacao">*</option>
+            </select>
+            <input placeholder="Informe o segundo número" id="num2">
+        </form>
+    </div>
+
+    <center><button onclick="calculadora()">Enviar</button></center>
+    <center><h1 class="resultado" id="resultado"></h1></center>
+
+    <script src="main.js"></script>
+</body>
+</html>

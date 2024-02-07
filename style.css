@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:rgb(40, 184, 223);
+}
+
+.estilo {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0px 400px;
+}
+
+
+button{
+    border-radius: 13px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+}
+
+ input{
+    font-weight: bolder;
+    border-radius: 15px;
+    width: 300px;
+    padding: 13px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+}
+
+    option{
+        background-color: white;
+    }
+
+    select{
+        background-color: white;
+        padding: 5px;
+    }
+
+h1{
+    font-size: xx-large;
+    font-weight: 400;
+    padding: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resultado{
+    margin-top: 30px;
+    padding: 15px;
+    font-size: x-large;
+}
